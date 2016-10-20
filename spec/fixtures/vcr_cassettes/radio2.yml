@@ -1,0 +1,112 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.bbc.co.uk/radio2/programmes/schedules/2014/11/03.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Type:
+      - application/json
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Pal-Host:
+      - pal057.cwwtf.bbc.co.uk:80
+      X-Ua-Compatible:
+      - IE=edge
+      X-Aps-Deprecation-Notice:
+      - 'APS is soon to be deprecated. It will first of all cease to be supported
+        on a 24/7 basis, and will then cease responding entirely. Nitro is the BBC''s
+        new API for programme data, and can provide all the information previously
+        provided by APS. Go here to read more: http://developer.bbc.co.uk/nitro'
+      Cache-Control:
+      - private, max-age=0, no-store
+      Content-Length:
+      - '2450'
+      Date:
+      - Mon, 03 Nov 2014 15:49:09 GMT
+      Connection:
+      - keep-alive
+      X-Cache-Action:
+      - MISS
+      X-Cache-Age:
+      - '0'
+      Vary:
+      - X-CDN,Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        53T+4C3Jw3+ghd8Bs9bRSYc9AAA=
+    http_version: 
+  recorded_at: Mon, 03 Nov 2014 15:49:09 GMT
+recorded_with: VCR 2.9.3
